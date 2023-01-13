@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <preference for="Magento\Customer\Api\Data\CustomerInterface"
+                type="Sigma\CreateCustomerRestApi\Api\Data\CustomInterface"/>
+
+    <preference for="Sigma\CreateCustomerRestApi\Api\Data\CustomInterface"
+                type="Sigma\CreateCustomerRestApi\Model\Data\Customer"/>
+
+</config>
