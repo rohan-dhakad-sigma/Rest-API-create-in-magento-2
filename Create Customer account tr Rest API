@@ -1,0 +1,9 @@
+{
+"customer" : {
+    "email": "ritesh.rana@sigmainfo.net",
+    "firstname" : "test-firstname",
+    "lastname" : "test-lastname",
+    "customer_number": "109836738"
+    },
+    "password": "Ritesh@123"
+}
